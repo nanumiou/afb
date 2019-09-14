@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<style>
-		img {
-			width: 100%;
-		}
+      div {
+        width: 100%;
+        height: 800px;
+        border: 0px solid #bcbcbc;
+      }
+      
+      .back1 {
+        background-image:url(lily_02.png);
+        background-repeat:no-repeat;
+        background-size:contain;
+      }
 	</style>
 </head>
+
 <body>
-	<img src="afb_img/lily_02.png" usemap="#Map" border="0">
-	<map name="Map">
-    <area shape="rect" coords="384,634,789,1345" href="afb3.html">
-    <area shape="rect" coords="1120,634,1550,1345" href="afb3.html">
-    <area shape="rect" coords="1880,634,2283,1345" href="afb3.html">   
-</map>
+	<div class="back1">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="http://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(e){
-        $('img[usemap]').rwdImageMaps();
-    })
-</script>
+    <span style="position:fixed;left:30px;top:17px;"><a href="index.html" target="_self"><img src="clean3.png" width="150px" height="50px">
+    </a></span>
 
+    <span style="position:fixed;left:170px;top:440px;"><a href="afb3.html" target="_self"><img src="clean3.png" width="100px" height="50px"/>
+    </a></span>
+    
+    <span style="position:fixed;left:435px;top:440px;"><a href="afb3.html" target="_self"><img src="clean3.png" width="100px" height="50px"/>
+    </a></span>
+
+    <span style="position:fixed;left:710px;top:440px;"><a href="afb3.html" target="_self"><img src="clean3.png" width="100px" height="50px"/>
+    </a></span>
+		
+    	<iframe name="param" src="" scrolling="no" style="visibility:hidden;position:absolute;width:0;height:0;"></iframe>
+		
+	</div>
 </body>
 </html>
